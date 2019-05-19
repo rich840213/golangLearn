@@ -35,12 +35,12 @@ type Man interface {
 }
 
 func main() {
-	foo := Human{
+	foo := &Human{
 		name: "foo",
 		age:  20,
 	}
 
-	bar := Singer{
+	bar := &Singer{
 		Human: Human{
 			name: "bar",
 			age:  25,

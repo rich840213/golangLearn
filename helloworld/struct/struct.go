@@ -8,7 +8,7 @@ type Info struct {
 }
 
 func main() {
-	s := Info{
+	s := &Info{
 		id:   1,
 		name: "123",
 	}
